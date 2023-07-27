@@ -1,0 +1,135 @@
+# Dataset Sukron
+{
+    "tag": "destinasi_aceh_sukron",
+    "patterns": [
+        "Destinasi yang ada di Nanggroe aceh darussalam ",
+        "tempat wisata yang ada di aceh",
+        "wisata aceh",
+        "tempat wisata aceh",
+        "destinasi aceh",
+        "wisata aceh",
+        "wisata di aceh",
+        "destinasi di aceh",
+        "mana saja tempat wisata yang ada di aceh darussalam ?"
+    ],
+    "responses": [
+        "salah satu tempat wisata yang ada di Nanggroe aceh darussalam yaitu ada Museum Tsunami Dan Pemakaman Kerkhof Peutjoet, Taman Sari Gunongan dan Pinto Khob, Lapangan Blangpadang Dan Monumen Replika Pesawat Dacota DC-3 Seulawah RI-001, Museum Aceh (Rumah Aceh), Taman Ratu Safiatuddin "
+    ]
+},
+{
+    "tag": "ibu_kota_Nanggroe_Aceh_Darussalam",
+    "patterns": [
+        "dimana ibu kota Nanggroe Aceh Darussalam ?",
+        "ibu kota aceh",
+        "Ibu kota Nanggroe Aceh Darussalam",
+        "nama ibu kota Nanggroe Aceh Darussalam",
+        "nama ibukota Nanggroe Aceh Darussalam",
+        "ibu kota Aceh Darussalam",
+        "ibu kota aceh"
+    ],
+    "responses": [
+        "Ibu Kota Nanggroe Aceh Darussalam terletak di Banda Aceh"
+    ]
+},
+{
+    "tag": "destinasi_sumatera_utara",
+    "patterns": [
+        "Destinasi yang ada di sumatera utara",
+        "tempat wisata yang ada di sumatera utara",
+        "wisata sumatera utara",
+        "tempat wisata sumatera utara",
+        "destinasi sumatera utara",
+        "wisata sumatera utara",
+        "wisata di sumatera utara",
+        "destinasi di sumatera utara",
+        "mana saja tempat wisata yang ada di sumatera utara ?"
+    ],
+    "responses": [
+        "Salah satu tempat wisata yang ada di Sumatera Utara yaitu Danau Toba, Pulau Samosir, Museum Perjuangan TNI, Kebun Binatang Medan dan Taman Buaya Medan "
+    ]
+},
+{
+    "tag": "destinasi_Sumatera_selatan",
+    "patterns": [
+        "Destinasi yang ada di Sumatera selatan",
+        "tempat wisata yang ada di Sumatera selatan",
+        "wisata Sumatera selatan",
+        "tempat wisata Sumatera selatan",
+        "destinasi Sumatera selatan",
+        "wisata Sumatera selatan",
+        "wisata di Sumatera selatan",
+        "destinasi di Sumatera selatan",
+        "mana saja tempat wisata yang ada di Sumatera selatan ?"
+    ],
+    "responses ": [
+        "Salah satu tempat wisata yang ada di Sumatera Selatan yaitu Jembatan Ampera, Rumah Limas, Hutan Wisata Punti Kayu, Masjid Agung Palembang dan Goa Putri "
+    ]
+},
+{
+    "tag": "destinasi_sumatera_barat",
+    "patterns": [
+        "Destinasi yang ada di Sumatera barat",
+        "tempat wisata yang ada di Sumatera barat",
+        "wisata Sumatera barat",
+        "tempat wisata Sumatera barat",
+        "destinasi Sumatera barat",
+        "wisata Sumatera barat",
+        "wisata di Sumatera barat",
+        "destinasi di Sumatera barat",
+        "mana saja tempat wisata yang ada di Sumatera barat ?"
+    ],
+    "responses": [
+        "Salah satu tempat wisata yang ada di Sumatera Barat yaitu Pulau Pasumpahan, Puncak Lawang, Lembah Harau, Bukit Nobita dan Puncak Gagoan"
+    ]
+},
+{
+    "tag": "datinasi_bengkulu",
+    "patterns": [
+        "Destinasi yang ada di bengkulu",
+        "tempat wisata yang ada di bengkulu",
+        "wisata bengkulu",
+        "tempat wisata bengkulu",
+        "destinasi bengkulu",
+        "wisata bengkulu",
+        "wisata di bengkulu",
+        "destinasi di bengkulu",
+        "mana saja tempat wisata yang ada di bengkulu ?"
+    ],
+    "responses": [
+        "Salah satu tempat wisata yang ada di Bengkulu yaitu Benteng Marlborough, Pantai Air Bengkenang, Pantai Sungan Suci, Gunung Kaba dan Pantai Padang Betuah"
+    ]
+},
+{
+    "tag": "destinasi_riau",
+    "patterns": [
+        "Destinasi yang ada di riau",
+        "tempat wisata yang ada di riau",
+        "wisata riau",
+        "tempat wisata riau",
+        "destinasi riau",
+        "wisata riau",
+        "wisata di riau",
+        "destinasi di riau",
+        "mana saja tempat wisata yang ada di riau ?"
+    ],
+    "responses": [
+        "Salah satu tempat wisata yang ada di Riau yaitu Candi Muara Takus (satu-satunya candi peninggalan umat Budha di Riau), Air Terjun Bigau, Danau Raja, Istana Siak Sri Indraputra dan Kebun Binatang  Kasang Kulim"
+    ]
+},
+{
+    "tag": "destinasi_kepulauan_riau",
+    "patterns": [
+        "Destinasi yang ada di kepulauan riau",
+        "tempat wisata yang ada di kepulauan riau",
+        "wisata kepulauan riau",
+        "tempat wisata kepulauan riau",
+        "destinasi kepulauan riau",
+        "wisata kepulauan riau",
+        "wisata di kepulauan riau",
+        "destinasi di kepulauan riau",
+        "mana saja tempat wisata yang ada di kepulauan riau ?",
+    ],
+    "responses": [
+        "Salah satu tempat wisata yang ada di Kepulauan Riau yaitu Pulau Bintan, Pulau Penyengat, Pulau Ranah, Kepulauan Anambas dan Kepri Coral"
+    ]
+}

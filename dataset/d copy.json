@@ -1,0 +1,777 @@
+{
+    "intents": [
+        {
+            "tag": "greeting ",
+            "patterns": [
+                "hallo",
+                "hai",
+                "halo",
+                "hei",
+                "hi",
+                "hy",
+                "pagi",
+                "morning",
+                "siang",
+                "afternoon",
+                "sore",
+                "malam",
+                "bro",
+                "sis",
+                "kawan"
+            ],
+            "responses": [
+                "Hai !, salam kenal ya! Mau tau seputar KERAGAMAN BUDAYA DAN WISATA  DI INDONESIA ?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Dah",
+                "Dadah",
+                "Bye",
+                "by",
+                "Byee",
+                "Good bye",
+                "Selamat tinggal",
+                "Sampai jumpa",
+                "Bai",
+                "See you"
+            ],
+            "responses": [
+                "Bye!",
+                "by",
+                "Dadahh!",
+                "Good bye!",
+                "Dahh, semoga harimu menyenangkan yaa!",
+                "Sampai jumpa lagi!",
+                "See u! Senang bisa membantu"
+            ]
+        },
+        {
+            "tag": "terimakasih",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Terima kasih",
+                "Makasih",
+                "Terima kasih banyak"
+            ],
+            "responses": [
+                "Dengan senang hati:)",
+                "Sama-sama yaa"
+            ]
+        },
+        {
+            "tag": "tentang_provinsi",
+            "patterns": [
+                "Jumlah provinsi di indonesia ?",
+                "berapa jumlah provinsi di indonesia ?",
+                "berapa jumlah provinsinya ?",
+                "berapa jumlah provinsi di indonesia saat ini ?"
+            ],
+            "responses": [
+                "Jumlah provinsi di indonesia saat ini di indonesia berjumalah 37 yang awalnya 34."
+            ]
+        },
+        {
+            "tag": "nama_provinsi",
+            "patterns": [
+                "sebutkan nama - nama provinsi di indonesia saat ini ?",
+                "apa saja nama provinsi di indonesia ?",
+                "nama provinsi indonesia",
+                "nama-nama provinsi indonesia",
+                "nama-nama provinsi di indonesia",
+                "nama provinsi di indonesia"
+            ],
+            "responses": [
+                "1.Nanggroe Aceh Darussalam, 2.Sumatera Utara, 3.Sumatera Selatan, 4.Sumatera Barat, 5.Bengkulu, 6.Riau, 7.Kepulauan Riau, 8.Jambi, 9.Lampung, 10.Bangka Belitung, 11.Kalimantan Barat, 12.Kalimantan Timur, 13.Kalimantan Selatan, 14.Kalimantan Tengah, 15.Kalimantan Utara, 16.Banten, 17.DKI Jakarta, 18.Jawa Barat, 19.Jawa Tengah, 20.DI Yogyakarta, 21.Jawa Timur, 22.Bali, 23.Nusa Tenggara Timur, 24.Nusa Tenggara Barat, 25.Gorontalo, 26.Sulawesi Barat, 27.Sulawesi Tengah, 28.Sulawesi Utara, 29.Sulawesi Tenggara, 30.Sulawesi Selatan, 31.Maluku Utara, 32.Maluku, 33.Papua Barat, 34.Papua, 35.Papua Selatan, 36.Papua Tengah, 37.Papua Pegunungan Tengah"
+            ]
+        },
+        {
+            "tag": "destinasi_aceh",
+            "patterns": [
+                "Destinasi yang ada di Nanggroe aceh darussalam ",
+                "tempat wisata yang ada di aceh",
+                "wisata aceh",
+                "tempat wisata aceh",
+                "destinasi aceh",
+                "wisata aceh",
+                "wisata di aceh",
+                "destinasi di aceh",
+                "mana saja tempat wisata yang ada di aceh darussalam ?"
+            ],
+            "responses": [
+                "salah satu tempat wisata yang ada di Nanggroe aceh darussalam yaitu ada Museum Tsunami Dan Pemakaman Kerkhof Peutjoet, Taman Sari Gunongan dan Pinto Khob, Lapangan Blangpadang Dan Monumen Replika Pesawat Dacota DC-3 Seulawah RI-001, Museum Aceh (Rumah Aceh), Taman Ratu Safiatuddin "
+            ]
+        },
+        {
+            "tag": "ibu_kota_Nanggroe_Aceh_Darussalam",
+            "patterns": [
+                "dimana ibu kota Nanggroe Aceh Darussalam ?",
+                "ibu kota aceh",
+                "Ibu kota Nanggroe Aceh Darussalam",
+                "nama ibu kota Nanggroe Aceh Darussalam",
+                "nama ibukota Nanggroe Aceh Darussalam",
+                "ibu kota Aceh Darussalam",
+                "ibu kota aceh"
+            ],
+            "responses": [
+                "Ibu Kota Nanggroe Aceh Darussalam terletak di Banda Aceh"
+            ]
+        },
+        {
+            "tag": "destinasi_sumatera_utara",
+            "patterns": [
+                "Destinasi yang ada di sumatera utara",
+                "tempat wisata yang ada di sumatera utara",
+                "wisata sumatera utara",
+                "tempat wisata sumatera utara",
+                "destinasi sumatera utara",
+                "wisata sumatera utara",
+                "wisata di sumatera utara",
+                "destinasi di sumatera utara",
+                "mana saja tempat wisata yang ada di sumatera utara ?"
+            ],
+            "responses": [
+                "Salah satu tempat wisata yang ada di Sumatera Utara yaitu Danau Toba, Pulau Samosir, Museum Perjuangan TNI, Kebun Binatang Medan dan Taman Buaya Medan "
+            ]
+        },
+        {
+            "tag": "destinasi_Sumatera_selatan",
+            "patterns": [
+                "Destinasi yang ada di Sumatera selatan",
+                "tempat wisata yang ada di Sumatera selatan",
+                "wisata Sumatera selatan",
+                "tempat wisata Sumatera selatan",
+                "destinasi Sumatera selatan",
+                "wisata Sumatera selatan",
+                "wisata di Sumatera selatan",
+                "destinasi di Sumatera selatan",
+                "mana saja tempat wisata yang ada di Sumatera selatan ?"
+            ],
+            "responses": [
+                "Salah satu tempat wisata yang ada di Sumatera Selatan yaitu Jembatan Ampera, Rumah Limas, Hutan Wisata Punti Kayu, Masjid Agung Palembang dan Goa Putri "
+            ]
+        },
+        {
+            "tag": "destinasi_sumatera_barat",
+            "patterns": [
+                "Destinasi yang ada di Sumatera barat",
+                "tempat wisata yang ada di Sumatera barat",
+                "wisata Sumatera barat",
+                "tempat wisata Sumatera barat",
+                "destinasi Sumatera barat",
+                "wisata Sumatera barat",
+                "wisata di Sumatera barat",
+                "destinasi di Sumatera barat",
+                "mana saja tempat wisata yang ada di Sumatera barat ?"
+            ],
+            "responses": [
+                "Salah satu tempat wisata yang ada di Sumatera Barat yaitu Pulau Pasumpahan, Puncak Lawang, Lembah Harau, Bukit Nobita dan Puncak Gagoan"
+            ]
+        },
+        {
+            "tag": "datinasi_bengkulu",
+            "patterns": [
+                "Destinasi yang ada di bengkulu",
+                "tempat wisata yang ada di bengkulu",
+                "wisata bengkulu",
+                "tempat wisata bengkulu",
+                "destinasi bengkulu",
+                "wisata bengkulu",
+                "wisata di bengkulu",
+                "destinasi di bengkulu",
+                "mana saja tempat wisata yang ada di bengkulu ?"
+            ],
+            "responses": [
+                "Salah satu tempat wisata yang ada di Bengkulu yaitu Benteng Marlborough, Pantai Air Bengkenang, Pantai Sungan Suci, Gunung Kaba dan Pantai Padang Betuah"
+            ]
+        },
+        {
+            "tag": "destinasi_riau",
+            "patterns": [
+                "Destinasi yang ada di riau",
+                "tempat wisata yang ada di riau",
+                "wisata riau",
+                "tempat wisata riau",
+                "destinasi riau",
+                "wisata riau",
+                "wisata di riau",
+                "destinasi di riau",
+                "mana saja tempat wisata yang ada di riau ?"
+            ],
+            "responses": [
+                "Salah satu tempat wisata yang ada di Riau yaitu Candi Muara Takus (satu-satunya candi peninggalan umat Budha di Riau), Air Terjun Bigau, Danau Raja, Istana Siak Sri Indraputra dan Kebun Binatang  Kasang Kulim"
+            ]
+        },
+        {
+            "tag": "destinasi_kepulauan_riau",
+            "patterns": [
+                "Destinasi yang ada di kepulauan riau",
+                "tempat wisata yang ada di kepulauan riau",
+                "wisata kepulauan riau",
+                "tempat wisata kepulauan riau",
+                "destinasi kepulauan riau",
+                "wisata kepulauan riau",
+                "wisata di kepulauan riau",
+                "destinasi di kepulauan riau",
+                "mana saja tempat wisata yang ada di kepulauan riau ?"
+            ],
+            "responses": [
+                "Salah satu tempat wisata yang ada di Kepulauan Riau yaitu Pulau Bintan, Pulau Penyengat, Pulau Ranah, Kepulauan Anambas dan Kepri Coral"
+            ]
+        },
+        {
+            "tag": "destinasi_Provinsi_Jambi_azizah",
+            "patterns": [
+                "Destinasi apa saja yang ada di Jambi? ",
+                "tempat wisata yang ada Jambi apa saja?",
+                "mana saja tempat wisata yang ada di papua tengah?"
+            ],
+            "responses": [
+                "tempat wisata yang ada di Jambi, diantaranya yaitu Wisata Danau Gunung Tujuh, Danau Kaco, Tugu Keris Siginjai, dan MAsjid Agung Al Falah "
+            ]
+        },
+        {
+            "tag": "destinasi_Lampung",
+            "patterns": [
+                "Destinasi apa saja yang ada di Lampung? ",
+                "tempat wisata yang ada di Lampung apa saja?",
+                "mana saja tempat wisata yang ada di Lampung?"
+            ],
+            "responses": [
+                "tempat wisata yang ada di Lampung, diantaranya yaitu Vihara Thay Hin Bio, Istana Sekala Brak, Monumen Gunung Krakatau, dan Museum Lampung Ruwa Jurai. "
+            ]
+        },
+        {
+            "tag": "destinasi_Bangka_Belitung",
+            "patterns": [
+                "Destinasi apa saja yang ada di Bangka Belitung? ",
+                "tempat wisata yang ada di Bangka Belitung apa saja?",
+                "mana saja tempat wisata yang ada di Bangka Belitung?"
+            ],
+            "responses": [
+                "tempat wisata yang ada di Bangka Belitung, diantaranya yaitu Mercusuar Tanjung Kalian, Museum Timah Muntok, Wisma Ranggam, Museum Garuda, dan Pesanggarahan Manumbing. "
+            ]
+        },
+        {
+            "tag": "destinasi_Banten Serang",
+            "patterns": [
+                "Destinasi apa saja yang ada di Banten Serang? ",
+                "tempat wisata yang ada di Banten Serang apa saja?",
+                "mana saja tempat wisata yang ada di Banten Serang?"
+            ],
+            "responses": [
+                "tempat wisata yang ada di Banten Serang, diantaranya yaitu Kapal Bosok, Benteng Speelwijk, Keraton Surosowan, Gedung Juang 45. "
+            ]
+        },
+        {
+            "tag": "destinasi_Jakarta",
+            "patterns": [
+                "Destinasi apa saja yang ada di Jakarta? ",
+                "tempat wisata yang ada di Jakarta apa saja?",
+                "mana saja tempat wisata yang ada di Jakarta?"
+            ],
+            "responses": [
+                "tempat wisata yang ada di Jakarta, diantaranya yaitu Tugu Proklamasi, Masjid Istiqlal, dan Museum Sumpah Pemuda. "
+            ]
+        },
+        {
+            "tag": "destinasi_Bandung",
+            "patterns": [
+                "Destinasi apa saja yang ada di Bandung? ",
+                "tempat wisata yang ada di Bandung apa saja?",
+                "mana saja tempat wisata yang ada di Bandung?"
+            ],
+            "responses": [
+                "tempat wisata yang ada di Bandung, diantaranya yaitu Monumen Bandung Lautan Api, Museum Konferensi Asia Afrika, Goa Belanda, dan Gedung Indonesia Menggugat.  "
+            ]
+        },
+        {
+            "tag": "Sejarah_Destinasi_Bandung_Monumen_Lautan_Api",
+            "patterns": [
+                "Apa sejarah dibangunnya Monumen Lautan Api? ",
+                "Jelaskan dibangunnya Monumen Lautan Api?",
+                "Bagaimana awal Mula Monumen Lautan Api?"
+            ],
+            "responses": [
+                "Bangunan bersejarah di Bandung yang wajib kamu kunjungi selanjutnya adalah Monumen Bandung Lautan Api. Monumen yang berada di Jalan BKR Ciateul ini selalu dipadati pengunjung saat akhir pekan atau saat musim liburan. Kebanyakan dari mereka menjadikan monumen ini sebagai background foto yang menarik. Monumen Bandung Lautan Api ini dibangun untuk mengenang perjuangan rakyat Bandung saat mereka berperang melawan serangan tentara sekutu demi mempertahankan kota mereka. Peristiwa ini kemudian dikenal sebagai peristiwa Bandung Lautan Api. Kamu pun bisa mengunjungi monument ini secara gratis dan jangan lewatkan pemandangan saat sore hari karena sangat indah.  "
+            ]
+        },
+        {
+            "tag": "Sejarah_Destinasi_Museum_Konferensi_Asia_Afrika",
+            "patterns": [
+                "Apa sejarah dibangunnya Museum Konferensi Asia Afrika? ",
+                "Jelaskan dibangunnya Museum Konferensi Asia Afrika?",
+                "Bagaimana awal Mula Museum Konferensi Asia Afrika?"
+            ],
+            "responses": [
+                "Museum yang satu ini juga tak kalah ikonik dengan Gedung Sate karena sama-sama memiliki sejarah penting tak hanya bagi kota Bandung, namun juga bagi Indonesia. Museum ini dulunya digunakan oleh perkumpulan warga elit Eropa yang tinggal di Bandung bernama Societeit Concordia. Bangunan museum ini memiliki sudut yang menghadap ke Jalan Asia Afrika dan Jalan Braga, yang mana dulunya sudut tersebut berbentuk sudut kaku yang kemudian direnovasi menjadi melingkar seperti saat ini. Gedung ini terkenal bersejarah karena menjadi saksi dan menyimpan benda-benda bersejarah dari Konferensi Asia Afrika pada tahun 1955. "
+            ]
+        },
+        {
+            "tag": "Sejarah_Destinasi_Goa_Belanda",
+            "patterns": [
+                "Apa sejarah dibangunnya Goa Belanda? ",
+                "Jelaskan dibangunnya Goa Belanda?",
+                "Bagaimana awal Mula Goa Belanda?"
+            ],
+            "responses": [
+                "Bangunan bersejarah di Bandung yang satu ini bisa kamu temukan di kawasan Taman Hutan Raya Djuanda di Dago. Konon pada masa penjajahan Belanda goa ini digunakan sebagai tangki untuk penyimpanan cadangan air di musim kemarau. Tak hanya itu, Goa Belanda ini juga pernah menjadi Stasiun Radio Belanda saat Perang Dunia II. Saat ini, Goa Belanda ini menjadi lokasi wisata sejarah di Bandung yang cukup populer. Selain itu, wisata ini juga menjadi tempat untuk menguji nyali karena goa ini dianggap sebagai salah satu tempat yang angker di Bandung. Kamu bisa menjelajah goa ini bersama pemandu agar tidak tersesat di dalamnya "
+            ]
+        },
+        {
+            "tag": "Sejarah_Destinasi_Gedung_Indonesia_Menggugat",
+            "patterns": [
+                "Apa sejarah dibangunnya Gedung Indonesia Menggugat? ",
+                "Jelaskan dibangunnya Gedung Indonesia Menggugat?",
+                "Bagaimana awal Mula adanya Gedung Indonesia Menggugat?"
+            ],
+            "responses": [
+                "Gedung Indonesia Menggugat juga menjadi salah satu bangunan bersejarah di Bandung yang tak boleh kamu lewatkan. Bangunan ini konon dibangun sekitar tahun 1907 dan dulunya merupakan rumah warga Belanda sebelum dialih fungsikan sebagai Pengadilan Pemerintah Belanda yang digunakan untuk mengadilu pejuang kemerdekaan, termasuk Soekarno, Maskoen, Sartono hingga Satromolejono. Nama Indonesia Menggugat pun dikenal sebagai salah satu peristiwa bersejarah dimana saat itu Soekarno diadili dan memberontak melalui pembelaan berjudul “Indonesia Menggugat”. Peristiwa tersebut tentu mengejutkan pemerintan Belanda saat itu dan sampai saat ini dikenal sebagai salah satu peristiwa bersejarah yang selalu dikenang. Gedung Indonesia Menggugat ini memang telah berusia ratusan tahun namun maish berdiri kokoh hingga saat ini. Setelah beberapa kali mengalami perubahan fungsi, gedung ini sekarang menjadi tempat diselenggarakannya berbagai kegiatan social, seni atau lainnya. "
+            ]
+        },
+        {
+            "tag": "destinasi_Semarang",
+            "patterns": [
+                "Destinasi apa saja yang ada di Semarang? ",
+                "tempat wisata yang ada di Semarang apa saja?",
+                "mana saja tempat wisata yang ada di Semarang?"
+            ],
+            "responses": [
+                "tempat wisata yang ada di Semarang, diantaranya yaitu Kota Lama Semarang, Museum Kereta Api Ambarawa, Tugu Muda, dan Lawang Sewu. "
+            ]
+        },
+        {
+            "tag": "destinasi_yogyakarta_erdi",
+            "patterns": [
+                "Destinasi yang ada di yogyakarta",
+                "Destinasi yang ada di Daerah istimewa yogyakarta"
+            ],
+            "responses": [
+                "salah satu tempat wisata yang ada di Nanggroe aceh darussalam yaitu CANDI BOROBUDUR, CANDI PRAMBANAN, MALIOBORO, OBELIX HILLS, PANTAI PARANGTRITIS"
+            ]
+        },
+        {
+            "tag": "ibukota_yogyakarta",
+            "patterns": [
+                "Nama ibu kota daerah istimewa yogyakarta",
+                "ibu kota daerah istimewa yogyakarta",
+                "apa nama ibu kota daerah istimewa yogyakarta ?",
+                "ibukota daerah istimewa yogyakarta"
+            ],
+            "responses": [
+                "Nama ibukota Daerah Istimewa Yogyakarta yaitu Yogyakarta",
+                "Nama ibu kota Daerah Istimewa Yogyakarta Yogyakarta yaitu Yogyakarta"
+            ]
+        },
+        {
+            "tag": "destinasi_jawa_timur",
+            "patterns": [
+                "Destinasi yang ada di jawa timur"
+            ],
+            "responses": [
+                "salah satu tempat wisata yang ada di jawa timur yaitu Kelenteng Sanggar Agung, Atlantis Land Surabaya, Museum De Javasche Bank, Taman Pantai Ria Kenjeran, wisata perahu kalimas surabaya"
+            ]
+        },
+        {
+            "tag": "destinasi_kalimantan_timur",
+            "patterns": [
+                "Destinasi yang ada di kalimantan timur"
+            ],
+            "responses": [
+                "salah satu tempat wisata yang ada di kalimantan timur yaitu Pulau Beras Basah, Desa Budaya Pampang, Sungai Mahakam, Pulau Kumala, Ladang Budaya Tenggarong"
+            ]
+        },
+        {
+            "tag": "destinasi_kalimantan_barat",
+            "patterns": [
+                "Destinasi yang ada di kalimantan barat"
+            ],
+            "responses": [
+                "salah satu tempat wisata yang ada di kalimantan barat yaitu Istana Kadriah, Rumah Radakng, pantai pasir panjang, Khatulistiwa Park, Meseum Kalimantan Barat"
+            ]
+        },
+        {
+            "tag": "destinasi_kalimantan_tengah",
+            "patterns": [
+                "Destinasi yang ada di kalimantan tengah"
+            ],
+            "responses": [
+                "salah satu tempat wisata yang ada di kalimantan tengah yaitu meseum balanga, taman pasuk kameloh, taman nasional sebangau, Tugu Soekarno, Eduwisata Kalimantan Hutan Itah"
+            ]
+        },
+        {
+            "tag": "destinasi_kalimantan_selatan",
+            "patterns": [
+                "Destinasi yang ada di kalimantan selatan"
+            ],
+            "responses": [
+                "salah satu tempat wisata yang ada di kalimantan selatan yaitu pasar terapung Lok Baintan, Museum Lambung Mangkurat, Taman Hutan Raya Sultan Adam, Pulau Pinus, Bukit Batas Aranio"
+            ]
+        },
+        {
+            "tag": "destinasi_kalimantan_utara",
+            "patterns": [
+                "Destinasi yang ada di kalimantan utara"
+            ],
+            "responses": [
+                "salah satu tempat wisata yang ada di kalimantan utara yaitu Tugu Cinta Damai, Kebun Raya Binusan, Museum Kesultanan Bulungan, Taman Tepian Tanjung Selor, Wisata Alam Gunung Rian"
+            ]
+        },
+        {
+            "tag": "destinasi_wisata_provinsi_bali_ridha",
+            "patterns": [
+                "Destinasi wisata yang ada di bali ? ",
+                "Destinasi wisata apa saja yang ada di bali ? ",
+                "tempat wisata yang rekomended di bali",
+                "apa saja tempat wisata yang ada di bali ?"
+            ],
+            "responses": [
+                "Bali sebagai tempat tujuan wisata yang lengkap dan terpadu memiliki banyak sekali tempat wisata menarik, antara lain: Pantai Kuta, Pura Tanah Lot, Pantai Padang-Padang, Danau Beratan Bedugul, Garuda Wisnu Kencana (GWK), Pantai Lovina dengan Lumba Lumbanya, Pura Besakih, Uluwatu, Ubud, Munduk, Kintamani, Amed, Tulamben, Pulau Menjangan dan masih banyak yang lainnya. Kini, Bali juga memiliki beberapa pusat wisata yang sarat edukasi untuk anak-anak seperti kebun binatang, museum tiga dimensi, taman bermain air, dan tempat penangkaran kura-kura."
+            ]
+        },
+        {
+            "tag": "destinasi_wisata_provinsi_nusa_tenggara_timur",
+            "patterns": [
+                "Destinasi wisata yang ada di nusa tenggara timur ? ",
+                "Destinasi wisata apa saja yang ada di nusa tenggara timur ? ",
+                "tempat wisata yang rekomended di nusa tenggara timur",
+                "apa saja tempat wisata yang ada di nusa tenggara timur ?"
+            ],
+            "responses": [
+                "Beberapa tempat wisata yang ada di provinsi Nusa Tenggara Timur yakni: Pulau Komodo dengan Komodo, Danau Kelimutu di Flores, 3 danau kawah dengan warna berbeda, Gunung Mutis di Timor Tengah Selatan, Semana Santa di Larantuka, Rumah adat dan pasola di Pulau Sumba, Air Terjun Waimarang Sumba Timur, Penyelaman di Pulau Alor, Pantai Nemberalla di Rote Ndao, Pantai Pink di Pulau Padar, Rumah Adat di Kampung Bena, Bajawa-Kabupaten Ngada, Taman Wisata 17 Pulau di Riung, Kabupaten Ngada, Taman Wisata Air Panas Mengeruda Soa, Bajawa- Kabupaten Ngada, Kelabba Madja di Sabu Raijua, Tradisi berburu Paus di Lembata, Rumah Adat Wae Rebo di Manggarai, Kampung Adat Bena, di Bajawa"
+            ]
+        },
+        {
+            "tag": "destinasi_wisata_provinsi_nusa_tenggara_barat",
+            "patterns": [
+                "Destinasi wisata yang ada di nusa tenggara barat ? ",
+                "Destinasi wisata apa saja yang ada di nusa tenggara barat ? ",
+                "tempat wisata yang rekomended di nusa tenggara barat",
+                "apa saja tempat wisata yang ada di nusa tenggara barat ?"
+            ],
+            "responses": [
+                "Berikut adalah beberapa rekomendasi tempat wisata yang terdapat di Provinsi NTB: Pantai Senggigi, Pantai Pink, Gili Trawangan, Taman Narmada, Gunung Rinjani, Pura Batu Bolong, Pantai Kuta Lombok, Pantai Sire, Pantai Sekotong, Batu Layar, Ampenan Kota Tua, Gunung Tambora, Pulau Satonda, Pulau Kenawa"
+            ]
+        },
+        {
+            "tag": "destinasi_wisata_provinsi_gorontalo",
+            "patterns": [
+                "Destinasi wisata yang ada di gorontalo ? ",
+                "Destinasi wisata apa saja yang ada di gorontalo ? ",
+                "tempat wisata yang rekomended di gorontalo",
+                "apa saja tempat wisata yang ada di gorontalo ?"
+            ],
+            "responses": [
+                "Berikut adalah beberapa objek wisata ternama yang ada di Provinsi Gorontalo : Pulau Saronde, Pulo Cinta, Wisata Hiu Paus, Benteng Otanaha, Menara Pakaya Limboto, Air Terjun Ayuhulalo, Air Terjun Taludaa, Danau Perintis, Monumen Nani Wartabone, Taman Laut Bitila, Pantai Bolihutuo, Panorama Alam Gunung Tilongkabila, Pantai Kelapa Dua dan Pohon Cinta"
+            ]
+        },
+        {
+            "tag": "destinasi_wisata_provinsi_sulawesi utara",
+            "patterns": [
+                "Destinasi wisata yang ada di sulawesi utara ? ",
+                "Destinasi wisata apa saja yang ada di sulawesi utara ? ",
+                "tempat wisata yang rekomended di sulawesi utara",
+                "apa saja tempat wisata yang ada di sulawesi utara ?"
+            ],
+            "responses": [
+                "Berikut adalah beberapa rekomendasi destinasi wisata di sulawesi utara : Danau Tondano, Gunung Klabat, Puncak Temboan Rurukan Satu Tomohon, Taman Laut Bunaken, Arung Jeram Sungai Nimanga, Bukit kasih"
+            ]
+        },
+        {
+            "tag": "destinasi_wisata_provinsi_sulawesi tenggara",
+            "patterns": [
+                "Destinasi wisata yang ada di sulawesi tenggara ? ",
+                "Destinasi wisata apa saja yang ada di sulawesi tenggara ? ",
+                "tempat wisata yang rekomended di sulawesi tenggara",
+                "apa saja tempat wisata yang ada di sulawesi tenggara ?"
+            ],
+            "responses": [
+                "Berikut adalah beberapa rekomendasi destinasi wisata di sulawesi tenggara : Pantai Nasional Wakatobi, Pulau Bokori, Pantai Nambo, Pantai Nirwana, Pantai Toronipa, Wisata Bawah Laut Basilica, Pulau Labengki"
+            ]
+        },
+        {
+            "tag": "destinasi_wisata_provinsi_sulawesi tengah",
+            "patterns": [
+                "Destinasi wisata yang ada di sulawesi tengah ? ",
+                "Destinasi wisata apa saja yang ada di sulawesi tengah ? ",
+                "tempat wisata yang rekomended di sulawesi tengah",
+                "apa saja tempat wisata yang ada di sulawesi tengah ?"
+            ],
+            "responses": [
+                "Berikut adalah beberapa rekomendasi destinasi wisata di sulawesi tengah : Pusentasi, cagar alam morowali, jembatan palu, museum sulawesi tengah, sou rajan tugu perdamaian/monumen nosarara nosabatutu, pantai talise"
+            ]
+        },
+        {
+            "tag": "destinasi_wisata_provinsi_sulawesi barat",
+            "patterns": [
+                "Destinasi wisata yang ada di sulawesi barat ? ",
+                "Destinasi wisata apa saja yang ada di sulawesi barat ? ",
+                "tempat wisata yang rekomended di sulawesi barat",
+                "apa saja tempat wisata yang ada di sulawesi barat ?"
+            ],
+            "responses": [
+                "Berikut adalah beberapa rekomendasi destinasi wisata di sulawesi Barat :  Wisata Alam Rawa Bangun, Bukit jati Gentungan, Pulau Karampuang, Pulau Gunung Toraja(Pulau Pasir Putih), Pantai Manakarra"
+            ]
+        },
+        {
+            "tag": "destinasi_sulawesi_selatan_firman",
+            "patterns": [
+                "Destinasi yang ada di Sulawesi Selatan ? ",
+                "tempat wisata yang ada di Sulawesi Selatan ?",
+                "Tolong Rekomendasikan destinasi wisata favorit di Makassar ?"
+            ],
+            "responses": [
+                "Beberapa rekomendasi dari destinasi wisata di Sulawesi Selatan diantaranya yaitu Pantai Losari, Pantai Galesong, Benteng Fort Rotterdam, Balai Taman Nasional Bantimurung, dan sunset quay Central Park Indonesia"
+            ]
+        },
+        {
+            "tag": "destinasi_pantai_losari",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai pantai Losari ? ",
+                "Apa yang kamu ketahui tentang pantai Losari ?",
+                "Apa yang bisa kamu jelaskan mengenai pantai Losari ?",
+                "Pantai Losari"
+            ],
+            "responses": [
+                "Pantai Losari dikenal sebagai salah satu ikon wisata yang paling terkenal di Sulawesi Selatan terutama di Makassar, terkenal dengan suasana nya yang mendukung apalagi bila malam tiba, desir ombak dan beberapa jajanan khas kota Makassar yang menambah suasana nyaman ketika berada di Pantai Losari",
+                "Pantai Losari merupakan pantai yang berada di kota Makassar yang menyuguhkan panorama alam yabng menakjubkan, namun pantai ini tidak memiliki pasir dan tidak bisa digunakan untuk berenang namun pengunjung tetap dapat menikmati suasana pantai dengan beberapa hiburan serta jajanan khas kota Makassar yang tersebar di sekitar pantai Losari."
+            ]
+        },
+        {
+            "tag": "destinasi_pantai_galesong",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai pantai Galesong ? ",
+                "Apa yang kamu ketahui tentang pantai Galesong ?",
+                "Apa yang bisa kamu jelaskan mengenai pantai Galesong ?"
+            ],
+            "responses": [
+                "Pantai Galesong merupakan salah satu destinasi wisata di Makassar yang sangat nyaman karena dilengkapi fasilitas penunjang liburan kelurarga seperti penginapan, kolam renang, aneka wahana permainan dan tentunya desir pasir dan ombak pantai yang membangkitkan suasana berlibur anda. Destinasi wisata ini bisa kalian kunjungi desa Tamalate, Kecamatan Galesong Utara, Kabupaten Takalar."
+            ]
+        },
+        {
+            "tag": "destinasi_benteng_rotterdam",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai Benteng Fort Rotterdam ? ",
+                "Apa yang kamu ketahui tentang benteng Fort Rotterdam ?",
+                "Apa yang bisa kamu jelaskan mengenai Benteng Fort Rotterdam ?"
+            ],
+            "responses": [
+                "Benteng Fort Rotterdam merupakan jenis bangunan bersejarah yang kini dijadikan destinasi wisata terutama pelajar yang ingin mempelajari sejarah, bangunan ini merupakan sebuah benteng peninggalan kerajaan Gowa-Tallo. Letak dari benteng ini terletak di pinggir pantai losari di sebelah barat dari kota Makassar. Di benteng ini terdapat berbagai jenis peninggalan sejarah serta kebudayaan seperti baju adat, tulisan bersejarah, senjata serta kendaraan bersejarah."
+            ]
+        },
+        {
+            "tag": "destinasi_taman_nasional_bantimurung",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai taman nasional Bantimurung? ",
+                "Apa yang kamu ketahui tentang taman nasional Bantimurung?",
+                "Apa yang bisa kamu jelaskan mengenai taman nasional Bantimurung ?"
+            ],
+            "responses": [
+                "Taman wisata Nasional Bantimurung merupakan destiwasi wisata yang terletak di Kabupaten Maros di Dusun Bantimurung, Kecamatan Simbang, Kabupaten Maros. Di tempat ini terdapat dua hal yang menjadi hal ikonik dari tempat ini yaitu taman kupu-kupu dan panorama alam yang tedapat bebatuan, beberapa goa dan air terjun."
+            ]
+        },
+        {
+            "tag": "destinasi_sunset_quay",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai sunset quay? ",
+                "Apa yang kamu ketahui tentang Sunset Quay?",
+                "Apa yang bisa kamu jelaskan mengenai Sunset Quay ?"
+            ],
+            "responses": [
+                "Sunset Quay merupakan bagian dari Central Park Indonesia yang berlokasi dekat dari Pantai Losari, tempat ini biasanya dikunjungi oleh para pencinta sunset yang ingin menikmati suasana matahari tenggelam dengan nuansa gemercik air pantai pada bebatuan yang diduduki oleh pengunjung Sunset Quay."
+            ]
+        },
+        {
+            "tag": "destinasi_maluku_utara",
+            "patterns": [
+                "Destinasi yang ada di Maluku Utara ? ",
+                "tempat wisata yang ada di Maluku Utara ?",
+                "Tolong Rekomendasikan destinasi wisata favorit di Maluku Utara ?"
+            ],
+            "responses": [
+                "Beberapa rekomendasi dari destinasi wisata di Maluku Utara diantaranya yaitu Museum Kedaton Sultan Bacan, Pantai Sulamadaha, Pantai Jikomalamo, Gunung Gamalama dan Benteng Tolukku"
+            ]
+        },
+        {
+            "tag": "destinasi_museum_kedaton_sultan_bacan",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai museum kedaton sultan bacan ? ",
+                "Apa yang kamu ketahui tentang museum kedaton sultan bacan ?",
+                "Apa yang bisa kamu jelaskan mengenai museum kedaton sultan bacan ?"
+            ],
+            "responses": [
+                "Museum Kedaton Sultan Bacan merupakan bangunan peninggalan bersejarah dari kesultanan daerah Ternate, museum ini terletak pada Kelurahan Sao Sio, Kecamatan Ternate Utara di Kota Ternate. Didalam museum terdapat berbagai macam koleksi  bersejarah seperti benda geologi, seni rupa , mahkota kerajaan, singgasana kerajaan serta perlengkapan alat perang"
+            ]
+        },
+        {
+            "tag": "destinasi_pantai_sulamadaha",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai pantai sulamadaha ? ",
+                "Apa yang kamu ketahui tentang pantai sulamadaha ?",
+                "Apa yang bisa kamu jelaskan mengenai pantai sulamadaha ?"
+            ],
+            "responses": [
+                "Pantai Sulamadaha adalah salah satu destinasi wisata yang terkenal dengan keindahan pasir putih serta kejernihan air pantai. Pantai ini terletak di desa Sulamadaha di kecamatan Pulau Ternate. Pantai ini biasanya banyak digunakan untuk melepas penat dan bermain snorkeling."
+            ]
+        },
+        {
+            "tag": "destinasi_pantai_jikomalamo",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai Pantai Jikomalamo ? ",
+                "Apa yang kamu ketahui tentang Pantai Jikomalamo ?",
+                "Apa yang bisa kamu jelaskan mengenai Pantai Jikomalamo ?"
+            ],
+            "responses": [
+                "Pantai Jikomalamo merupakan destinasi wisata pantai yang berpasir putih. Pantai ini terletak di sebuah teluk yang tersembunyi yang dekat dengan Pulau Hiri di daerah seberangnya , pantai ini diberi nama Jikomalamo dikarenakan Jikomalamo merupakan nama kampung yang terdapat di pulau Hiri tersebut."
+            ]
+        },
+        {
+            "tag": "destinasi_gunung_gamalama",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai gunung gamalama? ",
+                "Apa yang kamu ketahui tentang gunung gamalama?",
+                "Apa yang bisa kamu jelaskan mengenai gunung gamalama ?"
+            ],
+            "responses": [
+                "Gunung Gamalama merupakan destinasi wisata yang cocok digunakan untuk berlibur, pemandangan gunung yang indah, hamparan perkebunan cengkeh dan pala yang berjejer di sepanjang lereng. Gunung ini dapat ditempuh dengan berjalan kaki yang kurang lebih 30 menit dari pusat kota Ternate."
+            ]
+        },
+        {
+            "tag": "destinasi_benteng_tolukko",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai  Benteng Tolukko? ",
+                "Apa yang kamu ketahui tentang Benteng Tolukko?",
+                "Apa yang bisa kamu jelaskan mengenai Benteng Tolukko ?"
+            ],
+            "responses": [
+                "Benteng Tolukko merupakan destinasi wisata yang terletak di kelurahan Sangadji di Ternate Utara.  Bangunan ini diceritakan dibangun oleh panglima perang dari Portugis , benteng ini menyimpan beberapa kisah bersejarah terkait perjalanan dari Ternate. Benteng ini terletak di wilayah kelurahan Sangadji didaerah Ternate Utara.  "
+            ]
+        },
+        {
+            "tag": "destinasi_maluku",
+            "patterns": [
+                "Destinasi yang ada di Maluku  ? ",
+                "tempat wisata yang ada di Maluku ?",
+                "Tolong Rekomendasikan destinasi wisata favorit di Maluku ?",
+                "Tempat wisata di maluku",
+                "wisata maluku",
+                "wisata di maluku"
+            ],
+            "responses": [
+                "Beberapa rekomendasi dari destinasi wisata di Maluku Utara diantaranya yaitu Nusa Pombo, Pantai Liang, Pantai Natsepa, Pemandian Air Panas Negeri Tuleh dan Benteng Ferangi"
+            ]
+        },
+        {
+            "tag": "destinasi_nusa_pombo",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai Nusa Pombo ? ",
+                "Apa yang kamu ketahui tentang Nusa Pombo ?",
+                "Apa yang bisa kamu jelaskan mengenai Nusa Pombo ?"
+            ],
+            "responses": [
+                "Pulau Nusa Pombo merupakan pulau yang indah yang tidak berpenghuni diberi nama Nusa Pombo dari bahasa  Portuhis yang berarti merpati, maka dari itu pulau juga ini dikenal dengan pulau merpati. Pulau ini menyimpan banyak kekayaan laut yang mempesona, wisatawan pun juga dapat menyelam dan menikmati wisata bawah laut ini."
+            ]
+        },
+        {
+            "tag": "destinasi_pantai_liang",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai pantai liang ? ",
+                "Apa yang kamu ketahui tentang pantai liang ?",
+                "Apa yang bisa kamu jelaskan mengenai pantai liang ?"
+            ],
+            "responses": [
+                "Pantai liang merupakan pantai yang teletak di Desa Liang, Kecamatan Salahutu, Kabupaten Maluku Tengah. Pengunjung yang berlibur di Pantai ini akan disambut dengan pasir putih memberikan kesan alami disertai pepohonan yang rindang yang menambah suasana nikmat bagi kalian yang ingin melepas penat. "
+            ]
+        },
+        {
+            "tag": "destinasi_pantai_natsepa",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai Pantai natsepa ? ",
+                "Apa yang kamu ketahui tentang Pantai natsepa ?",
+                "Apa yang bisa kamu jelaskan mengenai Pantai natsepa ?"
+            ],
+            "responses": [
+                "Pantai Natsepa yang legendaris ini memang menyimpan pesona yang luar biasa. Walaupun banyak bermunculan tempat wisata pantai yang baru di sepanjang pesisir Pulau Ambon, namun Pantai Natsepa selalu mendapat tempat khusus terutama bagi masyarakat Pulau Ambon.  Wilayah berpasir di Pantai Natsepa adalah salah satu yang terluas di sepanjang pesisir Pulau Ambon. Hamparan pasirnya memang tidak sepanjang Pantai Liang, namun luas area Pantai Natsepa lebih banyak memberikan ruang bagi para wisatawan untuk melakukan berbagai aktifitas. "
+            ]
+        },
+        {
+            "tag": "destinasi_pemandian_air_panas_negeri_tulehu",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai  pemandian air panas negeri tulehu? ",
+                "Apa yang kamu ketahui tentang pemandian air panas negeri tulehu?",
+                "Apa yang bisa kamu jelaskan mengenai pemandian air panas negeri tulehu ?"
+            ],
+            "responses": [
+                "Pemandian air panas negeri tulehu terletak di negeri Tulehu, kecamatan Salahutu, Kabupaten Maluku Tengah.  Air panas tulehu sangat berkhasiat, karena beberapa pengunjung yang rutin untuj datang ke tempat itu mengatakan sembuh dari beberapa penyakit. Selain dapat menyembuhkan penyakit, Anda pasti akan merasa segar dan pulih dari kepenatan setelah mandi di air panas Tulehu, dihasilkan kesegaran tubuh yang dapat dirasakan setelah mandi serta tubuh yang terasa lebih ringan."
+            ]
+        },
+        {
+            "tag": "destinasi_benteng_ferangi",
+            "patterns": [
+                "Bisakah kamu ceritakan mengenai  Benteng Ferangi? ",
+                "Apa yang kamu ketahui tentang Benteng Ferangi?",
+                "Apa yang bisa kamu jelaskan mengenai Benteng Ferangi ?"
+            ],
+            "responses": [
+                "Benteng Ferangi merupakan bangunan benteng bersejarah yang dibuat oleh bangsa portugis pada tahun 1575. Dulunya bangunan Benteng ini dijadikan sebagai Pusat pemerintahan dan juga sebagai tempat untuk menyimpan hasil rempah-rempah yang ada di indonesia bagian timur. Namun sekarang, benteng ini dijadikan sebagai lokasi wisata sejarah yang selalu ramai dikunjungi oleh para wisatawan yang ingin mengenal dan melihat peninggalan bersejarah di tempat ini. "
+            ]
+        },
+        {
+            "tag": "destinasi_papua_barat",
+            "patterns": [
+                "Destinasi apa saja yang ada di papua barat? ",
+                "tempat wisata yang ada di papua barat apa saja?",
+                "mana saja tempat wisata yang ada di papua barat ?"
+            ],
+            "responses": [
+                "tempat wisata yang ada di Papua Barat, diantaranya yaitu Gunung Arfak, Pulau Mansinam, Pantai Bakaro, Pantai Pasir Putih Yen Baba dan Pantai Syari. "
+            ]
+        },
+        {
+            "tag": "destinasi_papua",
+            "patterns": [
+                "Destinasi apa saja yang ada di papua? ",
+                "tempat wisata yang ada di papua apa saja?",
+                "mana saja tempat wisata yang ada di papua?"
+            ],
+            "responses": [
+                "tempat wisata yang ada di Papua Barat, diantaranya yaitu Gunung Arfak, Pulau Mansinam, Pantai Bakaro, Pantai Pasir Putih Yen Baba dan Pantai Syari. "
+            ]
+        },
+        {
+            "tag": "destinasi_papua_selatan",
+            "patterns": [
+                "Destinasi apa saja yang ada di papua selatan? ",
+                "tempat wisata yang ada di papua selatan apa saja?",
+                "mana saja tempat wisata yang ada di papua selatan?"
+            ],
+            "responses": [
+                "tempat wisata yang ada di Papua Selatan, diantaranya yaitu Pulau Hube, Pantai Payum, Taman Nasional Wasur, Pantai Onggaya dan Monumen Kapsul Waktu. "
+            ]
+        },
+        {
+            "tag": "destinasi_papua_tengah",
+            "patterns": [
+                "Destinasi apa saja yang ada di papua tengah? ",
+                "tempat wisata yang ada di papua tengah apa saja?",
+                "mana saja tempat wisata yang ada di papua tengah?"
+            ],
+            "responses": [
+                "tempat wisata yang ada di Papua Tengah, diantaranya yaitu Danau Rawa Biru, Taman Nasional Teluk Cendrawasih, Danau Mamae, Pantai Burate dan Pantai Ahe. "
+            ]
+        },
+        {
+            "tag": "destinasi_papua_pegunungan",
+            "patterns": [
+                "Destinasi apa saja yang ada di papua pegunungan? ",
+                "tempat wisata yang ada di papua pegunungan apa saja?",
+                "mana saja tempat wisata yang ada di papua pegunungan?"
+            ],
+            "responses": [
+                "tempat wisata yang ada di Papua Pegunungan, diantaranya yaitu Puncak Trikora, Gua Kontilola, Lembah Baliem, Air Terjun Walesi dan Pasir Putih Desa Aikima. "
+            ]
+        }
+    ]
+}
